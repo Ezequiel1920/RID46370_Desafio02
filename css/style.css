@@ -225,7 +225,7 @@ footer {
     }
 
     header {
-        height: 5rem;
+        width: 100%;
     }
 
     header>h1 {
@@ -246,8 +246,9 @@ footer {
 
     .site-header {
         color: #fff;
-        width: 25rem;
+        width: 88%;
         height: 28.35rem;
+        margin: 0 auto;
         border-radius: .71rem;
         background: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(102, 102, 102, 0) 50%), url("../img/city-night-view.jpg");
         background-repeat: no-repeat;
@@ -296,5 +297,9 @@ footer {
 
     .title_box>h2 {
         margin: 0 auto;
+    }
+
+    footer {
+        width: 100%;
     }
 }
